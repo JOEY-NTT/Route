@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Hero from './Hero';
 import ItineraryDisplay from './ItineraryDisplay';
-import { generateItinerary } from './services/geminiService';
+import { generateItinerary } from './geminiService';
 import { TripFormData, TripPlan } from './types';
 
 const App: React.FC = () => {
