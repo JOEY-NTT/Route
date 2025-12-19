@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { TravelStyle, TripFormData, Language } from './types';
-import { HERO_IMAGE_URL, Icons } from '../constants';
+import { HERO_IMAGE_URL, Icons } from './constants';
 import DatePicker from './DatePicker';
 
 interface HeroProps {
