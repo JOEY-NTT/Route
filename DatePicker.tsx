@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Icons } from '../constants';
+import { Icons } from './constants';
 
 interface DatePickerProps {
     startDate: string;
