@@ -1,0 +1,5 @@
+{
+  "name": "Route",
+  "description": "An AI-powered trip planner that generates detailed itineraries in seconds based on destination and travel style.",
+  "requestFramePermissions": []
+}
