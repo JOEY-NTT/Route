@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { TripPlan, TripFormData, ChatMessage } from "../types";
+import { TripPlan, TripFormData, ChatMessage } from "./types";
 
 // NOTE: The API key must be provided via the environment variable process.env.API_KEY.
 const genAI = new GoogleGenAI({ apiKey: process.env.API_KEY });
