@@ -3,7 +3,11 @@ import { TripPlan, TripFormData, ChatMessage } from "./types";
 
 // NOTE: The API key must be provided via the environment variable process.env.API_KEY.
 const genAI = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// 讀取 Vite 注入的環境變數
+const API_KEY = process.env.GEMINI_API_KEY;
 
+// 使用該金鑰初始化 Gemini API
+// 例如：const genAI = new GoogleGenerativeAI(API_KEY);
 const travelSchema = {
   type: Type.OBJECT,
   properties: {
