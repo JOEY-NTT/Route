@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { TripPlan, ChatMessage } from '../types';
-import { chatWithTravelAgent } from '../services/geminiService';
+import { TripPlan, ChatMessage } from './types';
+import { chatWithTravelAgent } from './geminiService';
 import { Icons } from '../constants';
 
 interface ChatWidgetProps {
