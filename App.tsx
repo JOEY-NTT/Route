@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Hero from './components/Hero';
-import ItineraryDisplay from './components/ItineraryDisplay';
+import Hero from './Hero';
+import ItineraryDisplay from './ItineraryDisplay';
 import { generateItinerary } from './services/geminiService';
 import { TripFormData, TripPlan } from './types';
 
