@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { TripPlan, DayPlan, Activity, ActivityType, Restaurant, Accommodation } from '../types';
-import { Icons } from '../constants';
+import { TripPlan, DayPlan, Activity, ActivityType, Restaurant, Accommodation } from './types';
+import { Icons } from './constants';
 import ChatWidget from './ChatWidget';
 
 interface ItineraryDisplayProps {
