@@ -1,13 +1,8 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { TripPlan, TripFormData, ChatMessage } from "./types";
 
-// 1. 取得從 vite.config.ts 注入的環境變數
 const API_KEY = process.env.GEMINI_API_KEY || ""; 
-
-// 2. 正確初始化 Gemini AI
 const genAI = new GoogleGenerativeAI(API_KEY);
-// 使用該金鑰初始化 Gemini API
-// 例如：const genAI = new GoogleGenerativeAI(API_KEY);
 const travelSchema = {
   type: Type.OBJECT,
   properties: {
