@@ -16,10 +16,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up Node
-        uses: actions/setup-node@v4  # <--- 修正這裡
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # 注意：這裡拿掉了 cache 選項
       - name: Install dependencies
         run: npm install
       - name: Build
